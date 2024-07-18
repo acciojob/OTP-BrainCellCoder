@@ -1,1 +1,38 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.code-container {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.code {
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#verification_heading {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+#verification_subtext {
+    font-size: 16px;
+    color: #777;
+}
